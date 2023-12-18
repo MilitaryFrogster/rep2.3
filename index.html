@@ -13,7 +13,44 @@
   <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 </head>
 <body>
-		
+		<SCRIPT type="text/javascript">
+	function function1()
+	{
+		alert("Статус: "+window.status);
+	}
+
+	function function2()
+	{
+		alert("Браузер: "+navigator.appName+"\nВерсия: "+navigator.appVersion+"\nПлатформа: "+navigator.platform);
+	}
+
+	function function3()
+	{
+		alert("Адрес: "+location.href+"\nHostname: "+location.hostname);
+	}
+
+	function function4()
+	{
+		alert("Ширина: "+screen.width+"\nВысота: "+screen.height);
+	}
+
+	function imgb1()
+	{
+		document.getElementById("im2").style.visibility = "hidden";
+	}
+
+	function imgb2()
+	{
+		document.getElementById("im2").style.visibility = "visible";
+	}
+
+	function imgb3()
+	{
+		var tempz = document.getElementById("im1").style.zIndex;
+		document.getElementById("im1").style.zIndex = document.getElementById("im3").style.zIndex;
+		document.getElementById("im3").style.zIndex = tempz;
+	}
+	</SCRIPT>
 &nbsp;<div class="text">
     <main>
       <h1>Создание WWW</h1>
