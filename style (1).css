@@ -212,7 +212,21 @@ summary {
 .line-str3 {
   padding-left: 45px;
 }
+.bb {
+  position: fixed;
+  flex-direction: row;
+  right: 0;
+  left: 70;
+  margin-left: 10px;
+  padding-right: 20px;
+}
 
+.butt {
+	position:absolute;
+  right: 0;
+  left: 70;
+  padding-right: 10px;
+}
 /* !!! Оформление "подвала" и содержащихся в нем элементов !!! */
 footer {
   width: 100%;
