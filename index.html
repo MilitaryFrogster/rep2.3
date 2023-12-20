@@ -60,6 +60,36 @@
           <p> - С костной проводимостью</p>
  
     </main>
+						<br></br>
+		<table class="bord" border="1">
+			<tr>
+			 <td class="td1">Ячейка 1 </td>
+			 <td class="td1">Ячейка 2 </td>
+			</tr>
+			<tr>
+			 <td class="td2">Ячейка 3 </td>
+			 <td class="td2">Ячейка 4 </td>
+		   </tr>
+		</table>
+
+		<br></br>
   </div> 
+						<img class="img1" src="sebaendless.jpg" id="im1">
+			<img class="img2" src="sebacj.jpg" id="im2">
+			<img class="img3" src="sebawiz.jpg" id="im3">
+
+			<script>
+				document.getElementById("im1").style.zIndex = "30";
+				document.getElementById("im2").style.zIndex = "15";
+				document.getElementById("im3").style.zIndex = "1";
+			</script>
+
+			<div class="imgb">
+				<br><input type="button" value="Вторая умирает" onClick="imgb1();"></br>
+				<br><input type="button" value="Вторая воскресает" onClick="imgb2();"></br>
+				<br><input type="button" value="Сменя первой и третьей" onClick="imgb3();"></br>
+			</div>
+		</div>
+	</div> 
 </body>
 </html>
